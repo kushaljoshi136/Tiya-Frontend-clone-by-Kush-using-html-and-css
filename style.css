@@ -222,6 +222,7 @@ header .logo h1 span{
 .hero-section .hero-container .hero-text a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 .hero-section .hero-container .hero-text button{
     width: 150px;
@@ -231,7 +232,10 @@ header .logo h1 span{
     border: 0;
     background-color: var(--primary-button-color);
     color: white;
-    padding: 0.5rem;
+    padding: 0.6rem;
+}
+.hero-section .hero-container .hero-text button:hover{
+    background-color: var(--primary-btn-bg-hover-color) !important;
 }
 .hero-section .hero-container .hero-text a span{
     margin-left: 1.2rem;
